@@ -17,5 +17,3 @@
             <a href="contact.php">Contact</a>
         </nav>
     </header>
-</body>
-</html>
