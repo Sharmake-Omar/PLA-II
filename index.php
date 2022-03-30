@@ -25,7 +25,10 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <?php
+  require_once("header.php")
+  ?>
+  <h2>Welkom op de website van SuperCoaster!</h2>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
