@@ -86,18 +86,27 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/* 
+Colors
+---
+yellow: #F9DF74
+blue: #B1BFFF
+*/
 *{
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 header{
   display: flex;
   align-items: center;
-  background: #c3e0e0;
+  background: #B1BFFF;
   padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 header img{
-  width: 120px;
+  width: 100px;
 }
 header nav{
   margin-left: 100px;
@@ -107,7 +116,7 @@ header a{
   color: black;
   font-size: 20px;
   padding: 5px 15px;
-  margin: 5px 15px;
+  margin: 5px 100px;
 }
 header a:hover{
   border-bottom: 3px solid black;
