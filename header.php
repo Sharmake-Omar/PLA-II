@@ -12,8 +12,8 @@
         <img src="img/logo.png" alt="">
         <nav>
             <a href="index.php">Home</a>
-            <a href="usp.php">Unique selling points</a>
-            <a href="wachttijd.php">Wachttijd</a>
+            <a href="usp.php">Over ons</a>
+            <a href="wachttijd.php">Wachttijden</a>
             <a href="contact.php">Contact</a>
         </nav>
     </header>
