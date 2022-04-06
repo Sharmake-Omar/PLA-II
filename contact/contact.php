@@ -19,24 +19,24 @@
     </header>
  <main>
    <div class="hero">
-	<form>
+	<form action="../backend/backendController.php" method="post">
 		<div class="row">
 			<div class="input-groep">
-				<input type="text" id="name" required>
-			<label for="name"><i class="fas fa-user"></i>Name</label> 
+			<input type="text" id="naam" name="naam" required>
+			<label for="naam"><i class="fas fa-user"></i>Naam</label> 
 			</div>
 			<div class="input-groep">
-				<input type="text" id="number" required>
-			<label for="name"><i class="fas fa-phone-square-alt"></i>Phone number</label>
+			<input type="text" id="nummer" name="nummer" required>
+			<label for="name"><i class="fas fa-phone-square-alt"></i>Telefoon Nummer</label>
 			</div> 
 		</div>
 
 		<div class="input-groep">
-			<input type="text" id="email" required>
+			<input type="text" id="email" name="email" required>
 		    <label for="name"><I class="fas fa-envelope"></I>E-mail</label>
 		</div>
 		<div class="input-groep">
-			<textarea name="message" rows="8" required></textarea>
+		<textarea name="message" rows="8" required></textarea>
 		<label for="message"><i class="fas fa-comments"></i>Message</label> 
 		</div>
 		<button id="button"><i class="fas fa-paper-plane"></i>Send</button>
