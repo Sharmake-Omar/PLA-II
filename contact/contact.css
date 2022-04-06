@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    background: #B1BFFF;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  header img{
+    width: 100px;
+  }
+  header nav{
+    margin-left: 100px;
+  }
+  header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 5px 100px;
+  }
+  header a:hover{
+    border-bottom: 3px solid black;
+  }
+
+  /* menu */
+
+  body {
+    background-color: #f9c700;
+  }
+  /* hero */
+  .hero {
+    width: 100%;
+    height: 100vh;  
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* form */
+  form {
+    width: 90%;
+    max-width: 600px;
+  }
+  .input-groep {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  /* input-textarea */
+  input,
+  textarea {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    outline: 0;
+    color: black;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 15px;
+  }
+  /* labe; */
+  label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    cursor: text;
+    transition: 0.2s;
+  }
+  /* button */
+  button {
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 104%;
+    cursor: pointer;
+  }
+  /* button-hover */
+  button:hover {
+    background: black;
+    opacity: 0.7;
+  }
+  /* input-focus-label-focus */
+  input:focus ~ label,
+  input:valid ~ label,
+  textarea:focus ~ label,
+  textarea:valid ~ label {
+    top: -35px;
+    font-size: 14px;
+  }
+  /* row */
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* row-input-groep */
+  .row .input-groep {
+    flex-basis: 48%;
+  }
+  
