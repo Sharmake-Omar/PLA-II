@@ -14,7 +14,7 @@
             <a href="index.php">Home</a>
             <a href="usp.php">Over ons</a>
             <a href="wachttijd.php">Wachttijden</a>
-            <a href="contact.php">Contact</a>
+            <a href="contacten/contact.php">Contact</a>
         </nav>
     </header>
  <main>
