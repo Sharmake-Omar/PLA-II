@@ -28,7 +28,24 @@
   <?php
   require_once("header.php")
   ?>
-  <h2>Welkom op de website van SuperCoaster!</h2>
+  <div class="banner">
+    <h1>RollerCoaster NV</h1>
+  </div>
+
+  <div class="container">
+    <img src="img/rollercoaster1.jpg" alt="">
+    <img src="img/rollercoaster2.webp" alt="">
+  </div>
+
+
+
+
+
+
+
+
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
