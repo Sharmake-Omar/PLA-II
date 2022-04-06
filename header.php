@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SuperCoaster</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="contact/contact.css">
+
 </head>
 <body>
     <header>
@@ -14,6 +16,6 @@
             <a href="index.php">Home</a>
             <a href="usp.php">Over ons</a>
             <a href="wachttijd.php">Wachttijden</a>
-            <a href="contact.php">Contact</a>
+            <a href="contact/contact.php">Contact</a>
         </nav>
     </header>
