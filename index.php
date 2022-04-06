@@ -28,14 +28,27 @@
   <?php
   require_once("header.php")
   ?>
-  <div class="banner">
-    <h1>RollerCoaster NV</h1>
-  </div>
+  <main>
+    <div class="banner">
+      <h1>RollerCoaster NV</h1>
+    </div>
 
-  <div class="container">
-    <img src="img/rollercoaster1.jpg" alt="">
-    <img src="img/rollercoaster2.webp" alt="">
-  </div>
+    <div class="container">
+      <img src="img/rollercoaster1.jpg" alt="">
+      <img src="img/rollercoaster2.webp" alt="">
+    </div>
+  </main>
+  <footer>
+    <img class="logo" src="img/logo.png" alt="">
+    <div class="split">
+      <img src="img/map.jpg" alt="">
+    </div>
+    <div class="split">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eligendi id omnis atque dignissimos sit vero officia quod dolorem laborum magni eum temporibus vitae ipsam, optio excepturi nam nemo. Ad.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis cumque modi, quia in corporis pariatur vitae voluptas repudiandae dolorum?</p>
+    </div>
+  </footer>
+
 
 
 
