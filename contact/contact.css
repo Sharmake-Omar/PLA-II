@@ -27,6 +27,30 @@
     border-bottom: 3px solid black;
   }
 
+  footer{
+    margin-top: 30px;
+    background: #B1BFFF;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img.logo{
+    width: 150px;
+  }
+  .split{
+    width: 40%;
+  }
+  .split img{
+    border-radius: 2px;
+    margin-left: 25%;
+  }
+  .split p{
+    margin-bottom: 10px;
+  }
+  img.logo{
+    width: 150px;
+  }
   /* menu */
 
   body {
